@@ -1,0 +1,1 @@
+This is a test project for a component [MASPreferences](https://github.com/shpakovski/MASPreferences).

@@ -10,12 +10,13 @@
 		2E8B1C511361CCEB002B7CD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8B1C501361CCEB002B7CD7 /* Cocoa.framework */; };
 		2E8B1C5E1361CCEB002B7CD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B1C5D1361CCEB002B7CD7 /* main.m */; };
 		2E8B1C641361CCEB002B7CD7 /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B1C631361CCEB002B7CD7 /* DemoAppDelegate.m */; };
-		2E8B1C671361CCEC002B7CD7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8B1C651361CCEC002B7CD7 /* MainMenu.xib */; };
+		2E8B1C671361CCEC002B7CD7 /* MASMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8B1C651361CCEC002B7CD7 /* MASMainMenu.xib */; };
 		2E8B1C7E1361D014002B7CD7 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8B1C7D1361D014002B7CD7 /* MASPreferencesWindow.xib */; };
 		2E8B1C811361D16A002B7CD7 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B1C801361D16A002B7CD7 /* GeneralPreferencesViewController.m */; };
 		2E8B1C841361D254002B7CD7 /* AdvancedPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B1C831361D254002B7CD7 /* AdvancedPreferencesViewController.m */; };
 		2E8B1C871361D2EC002B7CD7 /* AdvancedPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8B1C851361D2EC002B7CD7 /* AdvancedPreferencesView.xib */; };
 		2E8B1C881361D2EC002B7CD7 /* GeneralPreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8B1C861361D2EC002B7CD7 /* GeneralPreferencesView.xib */; };
+		833612F11A00BC4F00D7EFD8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 833612F01A00BC4F00D7EFD8 /* README.md */; };
 		DD81C14C153C9EED00F1680B /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8B1C791361CED9002B7CD7 /* MASPreferencesWindowController.m */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +31,7 @@
 		2E8B1C5D1361CCEB002B7CD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E8B1C621361CCEB002B7CD7 /* DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
 		2E8B1C631361CCEB002B7CD7 /* DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
-		2E8B1C661361CCEC002B7CD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2E8B1C661361CCEC002B7CD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MASMainMenu.xib; sourceTree = "<group>"; };
 		2E8B1C771361CED9002B7CD7 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
 		2E8B1C781361CED9002B7CD7 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
 		2E8B1C791361CED9002B7CD7 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
@@ -41,6 +42,7 @@
 		2E8B1C831361D254002B7CD7 /* AdvancedPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedPreferencesViewController.m; sourceTree = "<group>"; };
 		2E8B1C851361D2EC002B7CD7 /* AdvancedPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedPreferencesView.xib; sourceTree = "<group>"; };
 		2E8B1C861361D2EC002B7CD7 /* GeneralPreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesView.xib; sourceTree = "<group>"; };
+		833612F01A00BC4F00D7EFD8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = MASPreferences/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				2E8B1C561361CCEB002B7CD7 /* Demo */,
 				2E8B1C4F1361CCEB002B7CD7 /* Frameworks */,
 				2E8B1C4D1361CCEB002B7CD7 /* Products */,
+				833612F01A00BC4F00D7EFD8 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +101,7 @@
 				2E8B1C891361D301002B7CD7 /* Preferences */,
 				2E8B1C621361CCEB002B7CD7 /* DemoAppDelegate.h */,
 				2E8B1C631361CCEB002B7CD7 /* DemoAppDelegate.m */,
-				2E8B1C651361CCEC002B7CD7 /* MainMenu.xib */,
+				2E8B1C651361CCEC002B7CD7 /* MASMainMenu.xib */,
 				2E8B1C571361CCEB002B7CD7 /* Supporting Files */,
 			);
 			path = Demo;
@@ -188,8 +191,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E8B1C671361CCEC002B7CD7 /* MainMenu.xib in Resources */,
+				2E8B1C671361CCEC002B7CD7 /* MASMainMenu.xib in Resources */,
 				2E8B1C7E1361D014002B7CD7 /* MASPreferencesWindow.xib in Resources */,
+				833612F11A00BC4F00D7EFD8 /* README.md in Resources */,
 				2E8B1C871361D2EC002B7CD7 /* AdvancedPreferencesView.xib in Resources */,
 				2E8B1C881361D2EC002B7CD7 /* GeneralPreferencesView.xib in Resources */,
 			);
@@ -213,12 +217,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2E8B1C651361CCEC002B7CD7 /* MainMenu.xib */ = {
+		2E8B1C651361CCEC002B7CD7 /* MASMainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2E8B1C661361CCEC002B7CD7 /* en */,
 			);
-			name = MainMenu.xib;
+			name = MASMainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

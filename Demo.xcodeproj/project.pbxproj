@@ -61,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				2E8B1C6D1361CCFC002B7CD7 /* MASPreferences */,
-				2E8B1C561361CCEB002B7CD7 /* Demo */,
+				2E8B1C891361D301002B7CD7 /* Preferences Panel */,
+				2E8B1C561361CCEB002B7CD7 /* Whole Demo */,
+				2E8B1C571361CCEB002B7CD7 /* Supporting Files */,
 				2E8B1C4F1361CCEB002B7CD7 /* Frameworks */,
 				2E8B1C4D1361CCEB002B7CD7 /* Products */,
 				833612F01A00BC4F00D7EFD8 /* README.md */,
@@ -95,15 +97,14 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		2E8B1C561361CCEB002B7CD7 /* Demo */ = {
+		2E8B1C561361CCEB002B7CD7 /* Whole Demo */ = {
 			isa = PBXGroup;
 			children = (
-				2E8B1C891361D301002B7CD7 /* Preferences */,
+				833612F41A00C3F700D7EFD8 /* Resources */,
 				2E8B1C621361CCEB002B7CD7 /* DemoAppDelegate.h */,
 				2E8B1C631361CCEB002B7CD7 /* DemoAppDelegate.m */,
-				2E8B1C651361CCEC002B7CD7 /* MASMainMenu.xib */,
-				2E8B1C571361CCEB002B7CD7 /* Supporting Files */,
 			);
+			name = "Whole Demo";
 			path = Demo;
 			sourceTree = "<group>";
 		};
@@ -115,12 +116,13 @@
 				2E8B1C5D1361CCEB002B7CD7 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		2E8B1C6D1361CCFC002B7CD7 /* MASPreferences */ = {
 			isa = PBXGroup;
 			children = (
-				2E8B1C7D1361D014002B7CD7 /* MASPreferencesWindow.xib */,
+				833612F21A00C37000D7EFD8 /* Resources */,
 				2E8B1C771361CED9002B7CD7 /* MASPreferencesViewController.h */,
 				2E8B1C781361CED9002B7CD7 /* MASPreferencesWindowController.h */,
 				2E8B1C791361CED9002B7CD7 /* MASPreferencesWindowController.m */,
@@ -128,17 +130,42 @@
 			path = MASPreferences;
 			sourceTree = "<group>";
 		};
-		2E8B1C891361D301002B7CD7 /* Preferences */ = {
+		2E8B1C891361D301002B7CD7 /* Preferences Panel */ = {
 			isa = PBXGroup;
 			children = (
+				833612F31A00C3D500D7EFD8 /* Resources */,
 				2E8B1C7F1361D16A002B7CD7 /* GeneralPreferencesViewController.h */,
 				2E8B1C801361D16A002B7CD7 /* GeneralPreferencesViewController.m */,
-				2E8B1C861361D2EC002B7CD7 /* GeneralPreferencesView.xib */,
 				2E8B1C821361D254002B7CD7 /* AdvancedPreferencesViewController.h */,
 				2E8B1C831361D254002B7CD7 /* AdvancedPreferencesViewController.m */,
+			);
+			name = "Preferences Panel";
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		833612F21A00C37000D7EFD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E8B1C7D1361D014002B7CD7 /* MASPreferencesWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		833612F31A00C3D500D7EFD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E8B1C861361D2EC002B7CD7 /* GeneralPreferencesView.xib */,
 				2E8B1C851361D2EC002B7CD7 /* AdvancedPreferencesView.xib */,
 			);
-			name = Preferences;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		833612F41A00C3F700D7EFD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E8B1C651361CCEC002B7CD7 /* MASMainMenu.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -18,7 +18,7 @@
 
 #pragma mark - NSApplicationDelegate
 
-- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication * __unused)sender
 {
     return YES;
 }
@@ -48,7 +48,7 @@
 
 #pragma mark - Actions
 
-- (IBAction)openPreferences:(id)sender
+- (IBAction)openPreferences:(id __unused)sender
 {
     [self.preferencesWindowController showWindow:nil];
 }

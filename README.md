@@ -4,7 +4,6 @@ This is a test project for a component [MASPreferences](https://github.com/shpak
 
 # How to run
 
-	git clone --recursive https://github.com/shpakovski/MASPreferencesDemo.git
-	open MASPreferencesDemo/Demo.xcodeproj
+	git clone --recursive https://github.com/shpakovski/MASPreferencesDemo.git;open MASPreferencesDemo/Demo.xcodeproj
 
 Hit `Command-R` to build and run the project in Xcode.

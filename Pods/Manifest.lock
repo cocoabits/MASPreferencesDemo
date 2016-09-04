@@ -1,0 +1,21 @@
+PODS:
+  - MASPreferences (1.2)
+
+DEPENDENCIES:
+  - MASPreferences (from `https://github.com/shpakovski/MASPreferences`)
+
+EXTERNAL SOURCES:
+  MASPreferences:
+    :git: https://github.com/shpakovski/MASPreferences
+
+CHECKOUT OPTIONS:
+  MASPreferences:
+    :commit: 680c49a20791455e93c20d71921e7c834e5ae43c
+    :git: https://github.com/shpakovski/MASPreferences
+
+SPEC CHECKSUMS:
+  MASPreferences: 4ff5ced14f2ae0aada927579816c07fa6840f2e8
+
+PODFILE CHECKSUM: afe64428b7190e024b9244e626f22f9085f2271d
+
+COCOAPODS: 1.0.1

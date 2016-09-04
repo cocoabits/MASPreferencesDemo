@@ -2,7 +2,7 @@
 // This is a sample Advanced preference pane
 //
 
-#import "MASPreferencesViewController.h"
+#import <MASPreferences/MASPreferences.h>
 
 @interface AdvancedPreferencesViewController : NSViewController <MASPreferencesViewController> {
     NSTextField *_textField;

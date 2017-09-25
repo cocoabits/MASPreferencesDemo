@@ -13,10 +13,9 @@
     return [super initWithNibName:@"AdvancedPreferencesView" bundle:nil];
 }
 
-#pragma mark -
-#pragma mark MASPreferencesViewController
+#pragma mark - MASPreferencesViewController
 
-- (NSString *)identifier
+- (NSString *)viewIdentifier
 {
     return @"AdvancedPreferences";
 }

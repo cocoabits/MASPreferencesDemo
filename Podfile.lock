@@ -1,5 +1,5 @@
 PODS:
-  - MASPreferences (1.2)
+  - MASPreferences (1.3)
 
 DEPENDENCIES:
   - MASPreferences (from `https://github.com/shpakovski/MASPreferences`)
@@ -10,12 +10,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   MASPreferences:
-    :commit: 680c49a20791455e93c20d71921e7c834e5ae43c
+    :commit: 45e5ff67d19babc53414970b0a5db9586a494a96
     :git: https://github.com/shpakovski/MASPreferences
 
 SPEC CHECKSUMS:
-  MASPreferences: 4ff5ced14f2ae0aada927579816c07fa6840f2e8
+  MASPreferences: c08b8622dd17b47da87669e741efd7c92e970e8c
 
-PODFILE CHECKSUM: afe64428b7190e024b9244e626f22f9085f2271d
+PODFILE CHECKSUM: eb817c6bf328544d366930e114880cfcbba6f606
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.3.1

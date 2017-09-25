@@ -8,10 +8,9 @@
     return [super initWithNibName:@"GeneralPreferencesView" bundle:nil];
 }
 
-#pragma mark -
-#pragma mark MASPreferencesViewController
+#pragma mark - MASPreferencesViewController
 
-- (NSString *)identifier
+- (NSString *)viewIdentifier
 {
     return @"GeneralPreferences";
 }

@@ -1,3 +1,4 @@
+platform :osx
 project 'Demo.xcodeproj'
 use_frameworks!
 
